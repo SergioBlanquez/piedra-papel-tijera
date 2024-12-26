@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIEDRA PAPEL Y TIJERA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="gridWeb">
+        <header>
+            <h1>PIEDRA, PAPEL O TIJERA</h1>
+        </header>
+        <main>
+            <div id="score">
+
+                <h2>MARCADOR</h2>
+
+                    <div class="playerScore">
+                        <h3>Jugador</h3>
+                        <p id="userScore">0</p>
+                    </div>
+
+                    <div class="empate">
+                        <h3>Empates</h3>
+                        <p id="draw">0</p>
+                    </div>
+
+                    <div class="pcScore">
+                        <h3>PC</h3>
+                        <p id="pcScore">0</p>
+                    </div>
+
+            </div>
+
+            <div class="info">
+                <h2>¡Selecciona piedra, papel o tijera!</h2>
+            </div>
+
+            <div class="playerContainer">
+                <div class="imgContainer">
+                    <img class="elementos" id="piedra" src="/assets/piedra.png" alt="piedra">
+                </div>
+
+                <div class="imgContainer">
+                    <img class="elementos" id="papel" src="/assets/papel.png" alt="papel">
+                </div>
+
+                <div class="imgContainer">
+                    <img class="elementos" id="tijera"  src="/assets/tijera.png" alt="tijera">
+                </div>
+            </div>
+
+            <button id="reset">RESET</button>
+    
+    </main>
+
+    <footer>
+        <p>Juego desarrollado por &copy; Sergio Blánquez Ovelleiro</p>
+    </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
